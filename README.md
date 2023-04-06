@@ -1,3 +1,4 @@
+copy from : https://www.doogal.co.uk/exception
 .NET exception logger output window
 It happens to the best of us, our code throws an unexpected exception. This little class will catch any unhandled exceptions in a WinForms app and log them to a text file, event log or website, along with some useful information such as the call stack and loaded DLLs. When logging to a text file, it also ensures the file doesn't get too big.
 
